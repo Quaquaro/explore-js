@@ -1,1 +1,39 @@
 @import 'preset';
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  width: 30rem;
+  margin: 0 0 2rem 0;
+  button {
+    background-color: $ciRed;
+    padding: 1.5rem;
+    font-size: 1rem;
+    color: $ciWhite;
+    border-radius: 1rem;
+    border: none;
+    transition: 250ms all;
+    &:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+      &:hover {
+        transform: scale(1);
+      }
+    }
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+video,
+img {
+  width: 30rem;
+  background-color: $ciRed;
+  border-radius: 1rem;
+  border: solid 0.5rem $ciRed;
+  aspect-ratio: 5/3.8;
+}
+img {
+  margin: 2rem 0 0 0;
+}
