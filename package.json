@@ -1,0 +1,23 @@
+{
+  "name": "basic-webdev-setup",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.js\" \"src/**/*.html\" \"src/**/*.scss\""
+  },
+  "devDependencies": {
+    "c8": "^7.12.0",
+    "sass": "^1.51.0",
+    "vite": "^2.9.9",
+    "vitest": "^0.20.2"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "prettier": "^2.7.1"
+  }
+}
