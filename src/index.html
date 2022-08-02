@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Webcam-API</title>
   </head>
   <body>
-    <h1>Hallo</h1>
+    <div class="buttons">
+      <button id="button-screenshot">Screenshot</button>
+      <button id="button-download">Download</button>
+    </div>
+    <video autoplay="true" id="video-preview"></video>
+    <img src="./assets/images/demo.png" alt="Screenshot" id="screenshot" />
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>

@@ -3,6 +3,7 @@ $ciBlue: #00fff1;
 $ciRed: #ff00aa;
 $ciGreen: #46fcb4;
 $second: #0c1016;
+$ciWhite: #ffffff;
 
 $roboto: 'Roboto, sans-serif';
 @font-face {
@@ -26,8 +27,9 @@ $roboto: 'Roboto, sans-serif';
 body,
 html {
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: $second;

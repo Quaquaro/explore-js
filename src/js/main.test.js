@@ -31,3 +31,4 @@ test('fn getProducts() should return string if there are no products', async () 
   axios.get.mockResolvedValue({ status: 404, data: [] });
   expect(await getProducts()).toBe('keine Daten');
 });
+
